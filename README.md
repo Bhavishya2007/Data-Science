@@ -86,6 +86,41 @@ This portfolio is organized into:
 🔗 https://github.com/Bhavishya2007/heart-disease-streamlit
 
 ---
+🔹 Classification Model — Titanic Survival Prediction
+
+Binary Classification
+
+Data preprocessing & feature encoding
+
+Model evaluation metrics
+
+🔗 https://github.com/Bhavishya2007/titanic
+
+___
+
+🔹 Classification Model — Flower Prediction
+
+Multi-class classification
+
+Feature analysis
+
+Model accuracy comparison
+
+🔗 https://github.com/Bhavishya2007/Flower
+
+___
+
+🔹 Classification Model — Milk Quality Prediction
+
+Quality classification system
+
+Data preprocessing
+
+Performance evaluation
+
+🔗 https://github.com/Bhavishya2007/Milk-Quality
+
+___
 
 ### 🔹 Naive Bayes — Spam Detector
 
@@ -116,6 +151,18 @@ This portfolio is organized into:
 
 ---
 
+🔹 Random Forest — House Price Prediction
+
+Ensemble regression model
+
+Feature importance analysis
+
+Prediction optimization
+
+🔗 https://github.com/Bhavishya2007/HomePrice-Random-Forest
+
+___
+
 ### 🔹 Ensemble Learning — Diabetes Prediction
 
 * Model Comparison
@@ -125,6 +172,17 @@ This portfolio is organized into:
 🔗 https://github.com/Bhavishya2007/diabetes
 
 ---
+ 
+ 🔹 Regression Model — Pizza Price Prediction
+
+Regression modeling
+
+Feature relationship analysis
+
+Price prediction system
+
+🔗 https://github.com/Bhavishya2007/Pizza
+
 
 ### 🔹 Cancer Prediction Model
 
