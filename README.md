@@ -1,145 +1,247 @@
 # Data Science & Machine Learning Portfolio
 
-A structured collection of Machine Learning, Data Science, and ML Engineering projects built using real-world datasets, predictive modeling, and deployment frameworks.
+A structured collection of Machine Learning, Data Science, and ML Engineering projects built using real-world datasets, production-ready pipelines, and deployment frameworks.
 
 ---
 
-## Portfolio Projects
+# Repository Structure
+This portfolio is organized into:
 
-### Coffee Sales Predictor
-Streamlit-based project predicting coffee sales using historical data and regression modeling.  
-🔗 [View Project](https://github.com/Bhavishya2007/coffee-sales-streamlit)
-
----
-
-### Heart Disease Prediction
-Machine learning classification model that predicts heart disease risk using medical attributes. Includes preprocessing, feature selection, and evaluation metrics.  
-🔗 [View Project](https://github.com/Bhavishya2007/heart-disease-streamlit)
+- Core Machine Learning Concepts  
+- Supervised Learning Projects  
+- Unsupervised Learning Projects  
+- Deployment Projects  
+- ML Engineering & Optimization  
 
 ---
 
-### Spam Message Detector
-NLP classification model that detects spam messages using probabilistic learning techniques.  
-🔗 [View Project](https://github.com/Bhavishya2007/Spam-Streamlit)
+# Core Machine Learning Concepts
+
+- Supervised vs Unsupervised Learning  
+- Overfitting vs Underfitting  
+- Bias–Variance Tradeoff  
+- Model Evaluation Metrics  
+- Cross Validation (K-Fold)  
+- Hyperparameter Tuning  
+- Feature Engineering & Selection  
 
 ---
 
-### Cancer Prediction Model
-Classification system that predicts tumor diagnosis based on medical dataset features.  
-🔗 [View Project](https://github.com/Bhavishya2007/cancer-streamlit)
+# Supervised Learning
+
+## Regression Projects
+
+### Linear Regression — Sales & Business Prediction
+Concepts:
+- Regression modeling
+- Error metrics (R², MAE, MSE, RMSE)
+- Predictive analytics
+
+Projects:  
+🔗 Coffee Sales Predictor  
+https://github.com/Bhavishya2007/coffee-sales-streamlit  
+
+🔗 Ad Spend Prediction  
+https://github.com/Bhavishya2007/Ad_spend  
 
 ---
 
-### Digit Recognition (SVC)
-Support Vector Classification for digit recognition using scikit-learn.  
-🔗 [View Project](https://github.com/Bhavishya2007/load_digits-SVC)
+### Regularized Regression (Overfitting Control)
+Concepts:
+- Feature shrinkage
+- Model generalization
+- Regularization logic
+
+Project:  
+🔗 House Price Prediction (XGBoost)  
+https://github.com/Bhavishya2007/House-price-XGBoost  
 
 ---
 
-### GPA Prediction (KNN)
-Predicts student GPA using K-Nearest Neighbors algorithm with feature engineering.  
-🔗 [View Project](https://github.com/Bhavishya2007/gpa-knn-prediction)
+### Advanced Regression Modeling
+Concepts:
+- Feature engineering
+- Ensemble regression
+- Model comparison
+
+Project:  
+🔗 Random Forest House Price  
+https://github.com/Bhavishya2007/HomePrice-Random-Forest  
 
 ---
 
-### Pizza Sales Prediction
-ML regression model to predict pizza sales for business planning.  
-🔗 [View Project](https://github.com/Bhavishya2007/Pizza)
+## Classification Projects
+
+### Logistic Regression & Healthcare Prediction
+Concepts:
+- Binary classification
+- Evaluation metrics
+- Medical ML applications
+
+Project:  
+🔗 Heart Disease Predictor  
+https://github.com/Bhavishya2007/heart-disease-streamlit  
 
 ---
 
-### Titanic Survival Prediction
-Classification model predicting survival on the Titanic dataset.  
-🔗 [View Project](https://github.com/Bhavishya2007/titanic)
+### Support Vector Machines
+Concepts:
+- Hyperplanes
+- Margin maximization
+- Kernel trick
+
+Project:  
+🔗 Digit Classifier (SVC)  
+https://github.com/Bhavishya2007/load_digits-SVC  
 
 ---
 
-### Ad Spend Analysis
-Regression project analyzing advertising spend vs sales outcomes.  
-🔗 [View Project](https://github.com/Bhavishya2007/Ad_spend)
+### Ensemble Learning
+Concepts:
+- Model stacking
+- Feature importance
+- Variance reduction
+
+Projects:  
+🔗 Diabetes Predictor  
+https://github.com/Bhavishya2007/diabetes  
+
+🔗 Milk Quality Prediction  
+https://github.com/Bhavishya2007/Milk-Quality  
 
 ---
 
-### Mushroom Classifier
-Decision Tree model classifying mushrooms as edible or poisonous.  
-🔗 [View Project](https://github.com/Bhavishya2007/Mushroom)
+### Naive Bayes — NLP Classification
+Concepts:
+- Probabilistic modeling
+- Text preprocessing
+- Tokenization & vectorization
+
+Project:  
+🔗 Spam Detection  
+https://github.com/Bhavishya2007/Spam-Streamlit  
 
 ---
 
-### Diabetes Prediction
-ML model predicting diabetes risk based on health indicators.  
-🔗 [View Project](https://github.com/Bhavishya2007/diabetes)
+### Decision Tree Models
+Concepts:
+- Gini vs Entropy
+- Model interpretability
+- Tree visualization
+
+Project:  
+🔗 Mushroom Classifier  
+https://github.com/Bhavishya2007/Mushroom  
 
 ---
 
-### Flower Classification
-Classification of flower species using ML techniques.  
-🔗 [View Project](https://github.com/Bhavishya2007/Flower)
+### Multi-Class Classification
+Projects:  
+
+🔗 Flower Classification  
+https://github.com/Bhavishya2007/Flower  
+
+🔗 Cancer Prediction  
+https://github.com/Bhavishya2007/cancer-streamlit  
+
+🔗 Titanic Survival Prediction  
+https://github.com/Bhavishya2007/titanic  
 
 ---
 
-### Movie Recommendation System
-Predictive system recommending movies using collaborative filtering.  
-🔗 [View Project](https://github.com/Bhavishya2007/Movie)
+# Unsupervised Learning
+
+### K-Means Clustering
+Concepts:
+- Elbow method
+- Optimal cluster selection
+- Customer segmentation
+
+Project:  
+🔗 Mall Customer Segmentation  
+https://github.com/Bhavishya2007/Mall-Customers  
 
 ---
 
-### House Price Prediction (Random Forest)
-Regression model using Random Forest for property price prediction.  
-🔗 [View Project](https://github.com/Bhavishya2007/HomePrice-Random-Forest)
+### Clustering Analysis
+Concepts:
+- Distance metrics
+- Pattern detection
+- Group similarity
+
+Project:  
+🔗 Wine Clustering  
+https://github.com/Bhavishya2007/Wine-Clustering  
 
 ---
 
-### Milk Quality Prediction
-ML model predicting milk quality using dataset features.  
-🔗 [View Project](https://github.com/Bhavishya2007/Milk-Quality)
+# Recommendation Systems
+
+Concepts:
+- Similarity measures
+- Collaborative filtering
+- Personalization engines
+
+Project:  
+🔗 Movie Recommendation System  
+https://github.com/Bhavishya2007/Movie  
 
 ---
 
-### House Price Prediction (XGBoost)
-Regression model using XGBoost to estimate property prices accurately.  
-🔗 [View Project](https://github.com/Bhavishya2007/House-price-XGBoost)
+# ML Engineering & Deployment
+
+Concepts:
+- Model serialization
+- Pipeline creation
+- Deployment interfaces
+- Real-time prediction systems
+
+Projects:
+
+🔗 Employee Performance Predictor  
+https://github.com/Bhavishya2007/Employee  
+
+🔗 Pizza Sales Predictor  
+https://github.com/Bhavishya2007/Pizza  
 
 ---
 
-### Mall Customer Segmentation
-Customer clustering project for marketing analysis using K-Means clustering.  
-🔗 [View Project](https://github.com/Bhavishya2007/Mall-Customers)
+# Technical Stack
+
+Python  
+NumPy  
+Pandas  
+Matplotlib  
+Seaborn  
+Scikit-Learn  
+Streamlit  
+Flask  
+XGBoost  
 
 ---
 
-### Wine Quality Prediction
-Regression project predicting wine quality using dataset features.  
-🔗 [View Project](https://github.com/Bhavishya2007/wine-quality)
+# Highlights
 
----
-
-### Wine Clustering
-Unsupervised learning project that groups wines using clustering algorithms.  
-🔗 [View Project](https://github.com/Bhavishya2007/Wine-Clustering)
-
----
-
-### Employee Performance Predictor
-Streamlit ML app predicting employee performance levels using trained models.  
-🔗 [View Project](https://github.com/Bhavishya2007/Employee)
-
----
-
-## Technical Stack
-Python • NumPy • Pandas • Matplotlib • Seaborn • Scikit-Learn • Streamlit • Flask • XGBoost
-
----
-
-## Highlights
+✔ Clean project architecture  
 ✔ End-to-end ML pipelines  
-✔ Model evaluation included  
 ✔ Real-world datasets  
-✔ Deployment ready apps  
-✔ Clean modular code
+✔ Deployment-ready apps  
+✔ Production-oriented implementations  
 
 ---
 
-## Author
+# Upcoming Additions
+
+- Advanced hyperparameter tuning projects  
+- Deep learning implementations  
+- NLP pipelines  
+- Model monitoring dashboards  
+- Docker deployment  
+- CI/CD for ML systems  
+
+---
+
+# Author
+
 **Bhavishya Cherakula**  
 AI & ML Engineer | Data Science Enthusiast
