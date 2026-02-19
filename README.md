@@ -4,18 +4,26 @@ A structured collection of Machine Learning, Data Science, and ML Engineering pr
 
 ---
 
+## About This Repository
+This repository demonstrates my practical knowledge of Machine Learning, Data Science, and ML Engineering through real-world implementations.  
+Each project contains problem definition, preprocessing, modeling, evaluation, and deployment-ready architecture.
+
+---
+
 # Repository Structure
+
 This portfolio is organized into:
 
 - Core Machine Learning Concepts  
 - Supervised Learning Projects  
 - Unsupervised Learning Projects  
-- Deployment Projects  
-- ML Engineering & Optimization  
+- ML Engineering & Deployment  
 
 ---
 
 # Core Machine Learning Concepts
+
+Conceptual foundations implemented across projects:
 
 - Supervised vs Unsupervised Learning  
 - Overfitting vs Underfitting  
@@ -29,184 +37,127 @@ This portfolio is organized into:
 
 # Supervised Learning
 
+---
+
 ## Regression Projects
 
-### Linear Regression — Sales & Business Prediction
-Concepts:
-- Regression modeling
-- Error metrics (R², MAE, MSE, RMSE)
-- Predictive analytics
-
-Projects:  
-🔗 Coffee Sales Predictor  
-https://github.com/Bhavishya2007/coffee-sales-streamlit  
-
-🔗 Ad Spend Prediction  
-https://github.com/Bhavishya2007/Ad_spend  
+### CoffeeShop_Prediction
+Sales prediction system estimating revenue based on business factors such as location traffic, promotions, and pricing. Demonstrates regression modeling and evaluation metrics.
 
 ---
 
-### Regularized Regression (Overfitting Control)
-Concepts:
-- Feature shrinkage
-- Model generalization
-- Regularization logic
-
-Project:  
-🔗 House Price Prediction (XGBoost)  
-https://github.com/Bhavishya2007/House-price-XGBoost  
+### Lasso_Linear
+Linear regression model with L1 regularization showing feature shrinkage, overfitting reduction, and coefficient importance analysis.
 
 ---
 
-### Advanced Regression Modeling
-Concepts:
-- Feature engineering
-- Ensemble regression
-- Model comparison
+### House_Price_Prediction
+End-to-end regression pipeline predicting house prices using cleaned housing datasets, feature engineering, and model comparison techniques.
 
-Project:  
-🔗 Random Forest House Price  
-https://github.com/Bhavishya2007/HomePrice-Random-Forest  
+---
+
+### Energy_Efficiency_Model
+Random Forest regression model predicting building energy efficiency. Includes feature importance analysis and performance comparison across models.
+
+---
+
+### Wine_Quality_Predictor
+Regression system predicting wine quality scores using chemical attributes. Demonstrates cross-validation and performance tuning.
+
+---
+
+### Milk_Quality_Predictor
+Classification-based quality grading system for milk samples using preprocessing, scaling, and predictive modeling.
 
 ---
 
 ## Classification Projects
 
-### Logistic Regression & Healthcare Prediction
-Concepts:
-- Binary classification
-- Evaluation metrics
-- Medical ML applications
+---
 
-Project:  
-🔗 Heart Disease Predictor  
-https://github.com/Bhavishya2007/heart-disease-streamlit  
+### Framingham_Heart_Disease_Predictor
+Medical risk prediction system estimating probability of heart disease using patient health attributes. Demonstrates binary classification and evaluation metrics.
 
 ---
 
-### Support Vector Machines
-Concepts:
-- Hyperplanes
-- Margin maximization
-- Kernel trick
-
-Project:  
-🔗 Digit Classifier (SVC)  
-https://github.com/Bhavishya2007/load_digits-SVC  
+### Logistic_Assessment
+Logistic regression model analyzing classification boundaries, probability predictions, and confusion matrix evaluation.
 
 ---
 
-### Ensemble Learning
-Concepts:
-- Model stacking
-- Feature importance
-- Variance reduction
-
-Projects:  
-🔗 Diabetes Predictor  
-https://github.com/Bhavishya2007/diabetes  
-
-🔗 Milk Quality Prediction  
-https://github.com/Bhavishya2007/Milk-Quality  
+### SVM_Digit_Predictor
+Handwritten digit recognition system using Support Vector Machine. Demonstrates kernel trick, margin maximization, and multi-class classification.
 
 ---
 
-### Naive Bayes — NLP Classification
-Concepts:
-- Probabilistic modeling
-- Text preprocessing
-- Tokenization & vectorization
-
-Project:  
-🔗 Spam Detection  
-https://github.com/Bhavishya2007/Spam-Streamlit  
+### Mushroom_Classifier
+Decision Tree classification model predicting whether mushrooms are edible or poisonous using categorical features.
 
 ---
 
-### Decision Tree Models
-Concepts:
-- Gini vs Entropy
-- Model interpretability
-- Tree visualization
-
-Project:  
-🔗 Mushroom Classifier  
-https://github.com/Bhavishya2007/Mushroom  
+### Heart_Disease_DesicionTree
+Tree-based model for heart disease prediction with interpretability analysis and decision path visualization.
 
 ---
 
-### Multi-Class Classification
-Projects:  
+### Breast_Cancer_Identifier
+Medical classification system detecting cancer presence using diagnostic features and decision tree models.
 
-🔗 Flower Classification  
-https://github.com/Bhavishya2007/Flower  
+---
 
-🔗 Cancer Prediction  
-https://github.com/Bhavishya2007/cancer-streamlit  
+### Diabetes-Predictor
+Machine learning model predicting diabetes likelihood based on medical indicators and health statistics.
 
-🔗 Titanic Survival Prediction  
-https://github.com/Bhavishya2007/titanic  
+---
+
+### diabetes-gradient-boosting-streamlit
+Advanced ensemble model using gradient boosting deployed with Streamlit interface for real-time predictions.
+
+---
+
+### XGBOOSTING
+Boosted tree model implementing XGBoost algorithm with hyperparameter tuning and performance optimization.
+
+---
+
+### Spam_Mail_Detector
+Naive Bayes NLP classifier identifying spam messages using text preprocessing, tokenization, and probabilistic learning.
 
 ---
 
 # Unsupervised Learning
 
-### K-Means Clustering
-Concepts:
-- Elbow method
-- Optimal cluster selection
-- Customer segmentation
+---
 
-Project:  
-🔗 Mall Customer Segmentation  
-https://github.com/Bhavishya2007/Mall-Customers  
+### Mall_Customer_Segmentation
+Customer clustering system using K-Means algorithm for market segmentation and targeted marketing insights.
 
 ---
 
-### Clustering Analysis
-Concepts:
-- Distance metrics
-- Pattern detection
-- Group similarity
-
-Project:  
-🔗 Wine Clustering  
-https://github.com/Bhavishya2007/Wine-Clustering  
+### Hierarchical_Clustering
+Agglomerative clustering implementation demonstrating dendrogram visualization and distance metric comparison.
 
 ---
 
-# Recommendation Systems
-
-Concepts:
-- Similarity measures
-- Collaborative filtering
-- Personalization engines
-
-Project:  
-🔗 Movie Recommendation System  
-https://github.com/Bhavishya2007/Movie  
+### DBSCAN_Wine
+Density-based clustering model identifying natural groupings and noise points in wine datasets.
 
 ---
 
-# ML Engineering & Deployment
+# ML Engineering & Optimization
 
-Concepts:
-- Model serialization
-- Pipeline creation
-- Deployment interfaces
-- Real-time prediction systems
+Concepts implemented across projects:
 
-Projects:
-
-🔗 Employee Performance Predictor  
-https://github.com/Bhavishya2007/Employee  
-
-🔗 Pizza Sales Predictor  
-https://github.com/Bhavishya2007/Pizza  
+- Bias–Variance optimization  
+- Cross validation strategies  
+- GridSearchCV / RandomizedSearchCV  
+- Feature selection techniques  
+- Model serialization with Joblib  
+- Deployment with Streamlit and Flask  
 
 ---
 
-# Technical Stack
+# Tech Stack
 
 Python  
 NumPy  
@@ -216,24 +167,24 @@ Seaborn
 Scikit-Learn  
 Streamlit  
 Flask  
-XGBoost  
+Joblib  
 
 ---
 
 # Highlights
 
-✔ Clean project architecture  
 ✔ End-to-end ML pipelines  
 ✔ Real-world datasets  
-✔ Deployment-ready apps  
-✔ Production-oriented implementations  
+✔ Production-ready implementations  
+✔ Model evaluation included  
+✔ Scalable modular code  
 
 ---
 
 # Upcoming Additions
 
-- Advanced hyperparameter tuning projects  
-- Deep learning implementations  
+- Advanced XGBoost tuning  
+- Deep learning projects  
 - NLP pipelines  
 - Model monitoring dashboards  
 - Docker deployment  
