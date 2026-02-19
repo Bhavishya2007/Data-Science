@@ -252,9 +252,3 @@ K-Nearest Neighbors model predicting student GPA.
 
 Python • NumPy • Pandas • Matplotlib • Seaborn • Scikit-Learn • Streamlit • XGBoost
 
----
-
-# 📬 Connect With Me
-
-**Bhavishya Cherakula**
-AI & ML Engineer | Data Science Enthusiast
