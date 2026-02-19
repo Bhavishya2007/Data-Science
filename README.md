@@ -1,198 +1,201 @@
-# Data Science & Machine Learning Portfolio
+Machine Learning Algorithms & Projects
 
-A structured collection of Machine Learning, Data Science, and ML Engineering projects built using real-world datasets, production-ready pipelines, and deployment frameworks.
+This section demonstrates practical implementation of machine learning algorithms through real-world datasets and production-ready projects. Each project showcases understanding of algorithm theory, preprocessing, training, evaluation, and deployment.
 
----
+Supervised Learning Algorithms
+Linear Regression
 
-## About This Repository
-This repository demonstrates my practical knowledge of Machine Learning, Data Science, and ML Engineering through real-world implementations.  
-Each project contains problem definition, preprocessing, modeling, evaluation, and deployment-ready architecture.
+Algorithm Description:
+Linear Regression predicts continuous values by modeling the relationship between dependent and independent variables using a best-fit line.
 
----
+Project: Coffee Sales Prediction
+Project Description:
+Predicts coffee shop sales based on features like marketing spend, pricing, and demand trends. Includes preprocessing, model training, and evaluation metrics.
 
-# Repository Structure
+🔗 https://github.com/Bhavishya2007/coffee-sales-streamlit
 
-This portfolio is organized into:
+Random Forest Regression
 
-- Core Machine Learning Concepts  
-- Supervised Learning Projects  
-- Unsupervised Learning Projects  
-- ML Engineering & Deployment  
+Algorithm Description:
+Random Forest is an ensemble learning method that builds multiple decision trees and averages their predictions to improve accuracy and reduce overfitting.
 
----
+Project: House Price Prediction (Random Forest)
+Project Description:
+Predicts real estate prices using property features. Includes feature importance analysis and model comparison.
 
-# Core Machine Learning Concepts
+🔗 https://github.com/Bhavishya2007/HomePrice-Random-Forest
 
-Conceptual foundations implemented across projects:
+XGBoost Regression
 
-- Supervised vs Unsupervised Learning  
-- Overfitting vs Underfitting  
-- Bias–Variance Tradeoff  
-- Model Evaluation Metrics  
-- Cross Validation (K-Fold)  
-- Hyperparameter Tuning  
-- Feature Engineering & Selection  
+Algorithm Description:
+XGBoost is a gradient boosting algorithm optimized for speed and performance using sequential learning and error correction.
 
----
+Project: House Price Prediction (XGBoost)
+Project Description:
+Uses boosting to generate highly accurate price predictions with hyperparameter tuning.
 
-# Supervised Learning
+🔗 https://github.com/Bhavishya2007/House-price-XGBoost
 
----
+Multiple Regression
 
-## Regression Projects
+Algorithm Description:
+Uses multiple input variables to predict a continuous output value.
 
-### CoffeeShop_Prediction
-Sales prediction system estimating revenue based on business factors such as location traffic, promotions, and pricing. Demonstrates regression modeling and evaluation metrics.
+Project: Ad Spend Analysis
+Project Description:
+Analyzes how advertising budget allocation affects sales performance.
 
----
+🔗 https://github.com/Bhavishya2007/Ad_spend
 
-### Lasso_Linear
-Linear regression model with L1 regularization showing feature shrinkage, overfitting reduction, and coefficient importance analysis.
+Logistic Regression
 
----
+Algorithm Description:
+A classification algorithm used for predicting categorical outcomes using probability estimation.
 
-### House_Price_Prediction
-End-to-end regression pipeline predicting house prices using cleaned housing datasets, feature engineering, and model comparison techniques.
+Project: Heart Disease Prediction
+Project Description:
+Predicts heart disease risk using medical attributes and classification metrics.
 
----
+🔗 https://github.com/Bhavishya2007/heart-disease-streamlit
 
-### Energy_Efficiency_Model
-Random Forest regression model predicting building energy efficiency. Includes feature importance analysis and performance comparison across models.
+Support Vector Machine (SVM)
 
----
+Algorithm Description:
+SVM separates data into classes by finding the optimal hyperplane that maximizes margin between classes.
 
-### Wine_Quality_Predictor
-Regression system predicting wine quality scores using chemical attributes. Demonstrates cross-validation and performance tuning.
+Project: Digit Recognition
+Project Description:
+Recognizes handwritten digits using Support Vector Classification.
 
----
+🔗 https://github.com/Bhavishya2007/load_digits-SVC
 
-### Milk_Quality_Predictor
-Classification-based quality grading system for milk samples using preprocessing, scaling, and predictive modeling.
+Decision Tree
 
----
+Algorithm Description:
+Decision Trees split data into branches based on feature values to make predictions and decisions.
 
-## Classification Projects
+Project: Mushroom Classifier
+Project Description:
+Classifies mushrooms as edible or poisonous based on physical characteristics.
 
----
+🔗 https://github.com/Bhavishya2007/Mushroom
 
-### Framingham_Heart_Disease_Predictor
-Medical risk prediction system estimating probability of heart disease using patient health attributes. Demonstrates binary classification and evaluation metrics.
+Naive Bayes
 
----
+Algorithm Description:
+Probabilistic classifier based on Bayes’ theorem assuming feature independence.
 
-### Logistic_Assessment
-Logistic regression model analyzing classification boundaries, probability predictions, and confusion matrix evaluation.
+Project: Spam Message Detector
+Project Description:
+Detects whether a message is spam or not using NLP and probability modeling.
 
----
+🔗 https://github.com/Bhavishya2007/Spam-Streamlit
 
-### SVM_Digit_Predictor
-Handwritten digit recognition system using Support Vector Machine. Demonstrates kernel trick, margin maximization, and multi-class classification.
+K-Nearest Neighbors (KNN)
 
----
+Algorithm Description:
+Predicts output based on similarity with nearest data points in feature space.
 
-### Mushroom_Classifier
-Decision Tree classification model predicting whether mushrooms are edible or poisonous using categorical features.
+Project: GPA Prediction
+Project Description:
+Predicts student GPA using nearest neighbor similarity.
 
----
+🔗 https://github.com/Bhavishya2007/gpa-knn-prediction
 
-### Heart_Disease_DesicionTree
-Tree-based model for heart disease prediction with interpretability analysis and decision path visualization.
+Classification Models (General)
 
----
+Algorithm Description:
+Classification algorithms categorize data into predefined classes.
 
-### Breast_Cancer_Identifier
-Medical classification system detecting cancer presence using diagnostic features and decision tree models.
+Projects:
 
----
+Cancer Prediction
+Predicts tumor diagnosis using medical features.
+🔗 https://github.com/Bhavishya2007/cancer-streamlit
 
-### Diabetes-Predictor
-Machine learning model predicting diabetes likelihood based on medical indicators and health statistics.
+Diabetes Prediction
+Predicts diabetes risk based on health indicators.
+🔗 https://github.com/Bhavishya2007/diabetes
 
----
+Titanic Survival Prediction
+Predicts passenger survival probability.
+🔗 https://github.com/Bhavishya2007/titanic
 
-### diabetes-gradient-boosting-streamlit
-Advanced ensemble model using gradient boosting deployed with Streamlit interface for real-time predictions.
+Milk Quality Prediction
+Classifies milk quality using chemical features.
+🔗 https://github.com/Bhavishya2007/Milk-Quality
 
----
+Flower Classification
+Classifies flower species based on dataset features.
+🔗 https://github.com/Bhavishya2007/Flower
 
-### XGBOOSTING
-Boosted tree model implementing XGBoost algorithm with hyperparameter tuning and performance optimization.
+Employee Performance Predictor
+Predicts employee performance level using ML models.
+🔗 https://github.com/Bhavishya2007/Employee
 
----
+Recommendation Systems
+Collaborative Filtering
 
-### Spam_Mail_Detector
-Naive Bayes NLP classifier identifying spam messages using text preprocessing, tokenization, and probabilistic learning.
+Algorithm Description:
+Recommends items based on similarity between users or items using past interaction data.
 
----
+Project: Movie Recommendation System
+Project Description:
+Suggests movies to users based on preferences and similarity patterns.
 
-# Unsupervised Learning
+🔗 https://github.com/Bhavishya2007/Movie
 
----
+Unsupervised Learning Algorithms
+K-Means Clustering
 
-### Mall_Customer_Segmentation
-Customer clustering system using K-Means algorithm for market segmentation and targeted marketing insights.
+Algorithm Description:
+Groups data into clusters based on similarity using centroid-based partitioning.
 
----
+Project: Mall Customer Segmentation
+Project Description:
+Segments customers into groups for targeted marketing analysis.
 
-### Hierarchical_Clustering
-Agglomerative clustering implementation demonstrating dendrogram visualization and distance metric comparison.
+🔗 https://github.com/Bhavishya2007/Mall-Customers
 
----
+Clustering Algorithms
 
-### DBSCAN_Wine
-Density-based clustering model identifying natural groupings and noise points in wine datasets.
+Algorithm Description:
+Clustering identifies hidden patterns or groupings in unlabeled data.
 
----
+Project: Wine Clustering
+Project Description:
+Finds natural groupings in wine dataset using unsupervised learning.
 
-# ML Engineering & Optimization
+🔗 https://github.com/Bhavishya2007/Wine-Clustering
 
-Concepts implemented across projects:
+Regression-Based Forecasting
+Predictive Regression Modeling
 
-- Bias–Variance optimization  
-- Cross validation strategies  
-- GridSearchCV / RandomizedSearchCV  
-- Feature selection techniques  
-- Model serialization with Joblib  
-- Deployment with Streamlit and Flask  
+Algorithm Description:
+Forecasts future values based on historical patterns and statistical modeling.
 
----
+Projects
 
-# Tech Stack
+Pizza Sales Prediction
+Forecasts pizza demand trends for business planning.
+🔗 https://github.com/Bhavishya2007/Pizza
 
-Python  
-NumPy  
-Pandas  
-Matplotlib  
-Seaborn  
-Scikit-Learn  
-Streamlit  
-Flask  
-Joblib  
+Wine Quality Prediction
+Predicts wine quality score from chemical properties.
+🔗 https://github.com/Bhavishya2007/wine-quality
 
----
+Summary of Skills Demonstrated
 
-# Highlights
+Model building
 
-✔ End-to-end ML pipelines  
-✔ Real-world datasets  
-✔ Production-ready implementations  
-✔ Model evaluation included  
-✔ Scalable modular code  
+Data preprocessing
 
----
+Feature engineering
 
-# Upcoming Additions
+Evaluation metrics
 
-- Advanced XGBoost tuning  
-- Deep learning projects  
-- NLP pipelines  
-- Model monitoring dashboards  
-- Docker deployment  
-- CI/CD for ML systems  
+Hyperparameter tuning
 
----
+Deployment (Streamlit apps)
 
-# Author
-
-**Bhavishya Cherakula**  
-AI & ML Engineer | Data Science Enthusiast
+Real-world dataset handling
